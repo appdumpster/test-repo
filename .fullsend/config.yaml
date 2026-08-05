@@ -19,3 +19,8 @@ create_issues:
         repos:
             - appdumpster/test-repo
             - fullsend-ai/fullsend
+defaults:
+    status_notifications:
+        comment:
+            start: disabled        # "enabled" (default) | "disabled"
+            completion: on_failure # "enabled" (default) | "on_failure" | "disabled"
