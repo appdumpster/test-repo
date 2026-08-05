@@ -22,5 +22,8 @@ create_issues:
 defaults:
     status_notifications:
         comment:
-            start: disabled        # "enabled" (default) | "disabled"
-            completion: on_failure # "enabled" (default) | "on_failure" | "disabled"
+            start: disabled      # "enabled" (default) | "disabled"
+            completion: disabled # "enabled" (default) | "on_failure" | "disabled"
+        reaction:
+            start: enabled      # "enabled" | "disabled" (default)
+            completion: enabled # "enabled" | "on_failure" | "disabled" (default)
